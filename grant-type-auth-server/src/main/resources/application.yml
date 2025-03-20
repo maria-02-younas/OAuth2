@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+spring:
+  main:
+    banner-mode: off
+
+logging:
+  level:
+    root: info
+    org.springframework.security: trace
+    org.springframework.oauth2: trace
